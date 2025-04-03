@@ -1,7 +1,5 @@
-<script setup lang="ts">
-import Credenciales from './components/Credenciales.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <Credenciales />
+  <router-view />
 </template>
