@@ -1,21 +1,21 @@
 <template>
   <div class="layout">
-    <Header />
-    <Navbar />
+    <AppHeader />
+    <AppNavbar />
 
     <main class="flex-grow 1">
       <slot /> <!-- Aquí se carga el contenido de cada página -->
     </main>
 
-    <Footer />
+    <AppFooter />
   </div>
 </template>
 
 <script setup lang="ts">
 
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import Navbar from '@/components/Navbar.vue'
+import AppHeader from '@/components/AppHeader.vue';
+import AppFooter from '@/components/AppFooter.vue'
+import AppNavbar from '@/components/AppNavbar.vue'
 </script>
 
 <style scoped>
